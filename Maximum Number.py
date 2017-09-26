@@ -4,10 +4,10 @@ c=int(input("Enter 3rd Number:"))
 
 max=a;
 
-if b>max:
+if b>max and c<max:
     max=b;
 
-if c>max:
+else:
     max=c;
 
 print(max,"is Max");
